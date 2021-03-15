@@ -39,7 +39,9 @@ const processOrder = (cart) => {
 }
 
 
-export { addToDatabaseCart, getDatabaseCart, removeFromDatabaseCart, processOrder };
+
+
+export default { addToDatabaseCart, getDatabaseCart, removeFromDatabaseCart, processOrder };
 
 
 // polyfill to support older browser
